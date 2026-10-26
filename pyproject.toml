@@ -49,7 +49,7 @@ package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
-namespaces = false
+namespaces = true
 
 [tool.setuptools.dynamic]
 readme = {file = ["README.rst", "CONTRIBUTORS.txt", "CHANGES.txt"]}
